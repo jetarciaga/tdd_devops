@@ -18,4 +18,4 @@ jobs:
       - name: Install dependencies
         run: pip install pytest
       - name: Run tests with coverage
-        run: pytest --cov=calculator --cov-report=term
+        run: pytest --cov=module_2/calculator --cov-report=term
