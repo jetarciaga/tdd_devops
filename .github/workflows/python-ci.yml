@@ -17,5 +17,5 @@ jobs:
           python-version: "3.9"
       - name: Install dependencies
         run: pip install pytest
-      - name: Run tests
-        run: pytest
+      - name: Run tests with coverage
+        run: pytest --cov=calculator --cov-report=term
